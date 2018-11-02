@@ -8,7 +8,7 @@ encrypt and decrypt all files, like: pdf, txt, avi, mkv, jpeg, png etc
 npm install --save crypto-file
 ```
 
-### Encript Usage
+### Encrypt Usage
 
 ```js
 const cryptoFile = require('crypto-file');
@@ -16,7 +16,7 @@ const cryptoFile = require('crypto-file');
 cryptoFile.encrypt('./test.jpg', 'your-awsome-pwd');
 ```
 
-#### Dencript Usage
+#### Decrypt Usage
 
 ```js
 const cryptoFile = require('crypto-file');
